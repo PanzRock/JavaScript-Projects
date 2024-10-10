@@ -11,4 +11,4 @@ document.write("\"I shall fight the evil darkness,"
     + " -Atlas\<br>")
 var Region = "Land of Maydorm", Class1 = "Warrior", Class2 = "Assassin", Class3 = "Wizard", Class4 = "Ranger", Class5 = "Gunner", Class6 = "Necromancer", Class7 = "Druid";
 document.write(Class6)
-document.write(3 + 3);
+document.write(3 + 3);          //This is a Expression
