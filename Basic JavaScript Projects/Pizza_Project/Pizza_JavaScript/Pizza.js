@@ -1,4 +1,4 @@
-function getREceipt() {
+function getReceipt() {
     //this initializes our string so it can get passed from
     //function to function, growing line by line into a full receipt
     var text1 = "<h3>You Ordered:</h3>";
@@ -58,5 +58,5 @@ function getTopping(runningTotal, text1) {
     console.log("topping text1: " + text1);
     console.log("Purchase Total: " + "$" + runningTotal + ".00");
     document.getElementById("showText").innerHTML = text1;
-    document.getElementById("totaPrice").innerHTML = "<h3>Total: <stong>$" + runningTotal + ".00" + "</strong></h3>";
+    document.getElementById("totalPrice").innerHTML = "<h3>Total: <stong>$" + runningTotal + ".00" + "</strong></h3>";
 };
